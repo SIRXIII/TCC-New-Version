@@ -5,155 +5,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Clothing Club - Luxury Travel Wardrobes</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Travel Clothing Club</div>
+            <a href="#" class="logo">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/logo-nav.png" alt="Travel Clothing Club" class="logo-img">
+            </a>
             <div class="nav-links">
                 <a href="#collections">Collections</a>
                 <a href="#how-it-works">How it Works</a>
-                <a href="#about">About</a>
+                <a href="#bundles">Style Packs</a>
                 <a href="#contact">Contact</a>
             </div>
             <div class="nav-right">
-                <a href="#login" class="member-login">Member Login</a>
+                <a href="#" class="member-login">Member Login</a>
             </div>
         </div>
     </nav>
 
     <section class="hero">
+        <div class="hero-image-wrapper">
+            <img src="https://xa46sye2taaau.ok.kimi.link/images/hero_resort_coast.jpg" alt="Luxury travel fashion" class="hero-bg">
+        </div>
         <div class="hero-content">
-            <p class="overline">THE ART OF TRAVELING LIGHT</p>
-            <h1>Wardrobes Await You. Everywhere.</h1>
-            <p class="subhead">Curated, pre-styled outfits delivered to your hotel. No packing. No stress. Just arrival.</p>
-            
-            <div class="email-signup">
-                <p class="vip-text">Join the VIP List—Early access to new destinations</p>
+            <img src="https://xa46sye2taaau.ok.kimi.link/images/logo-hero.png" alt="Travel Clothing Club" class="hero-logo">
+            <p class="overline">PREMIUM TRAVEL WARDROBES</p>
+            <h1>Curated wardrobes.</h1>
+            <p class="subhead">Rent pre-styled outfits delivered to your hotel—return at checkout.</p>
+            <div class="hero-actions">
+                <a href="#collections" class="btn-primary">EXPLORE COLLECTIONS</a>
+            </div>
+            <div class="email-signup-hero">
+                <p class="vip-text">JOIN THE VIP LIST</p>
                 <form class="email-form">
                     <input type="email" placeholder="Enter your email" required>
                     <button type="submit">→</button>
                 </form>
-                <p class="micro-copy">10,000+ members. Unsubscribe anytime.</p>
+                <p class="members-count">10,000+ members. Early access to new destinations.</p>
             </div>
-            
-            <a href="#collections" class="cta-button">Explore Collections</a>
         </div>
     </section>
 
-    <section class="trust-bar">
-        <p>Trusted by travelers featured in:</p>
-        <div class="logos">
-            <span>Condé Nast Traveler</span>
-            <span>Travel + Leisure</span>
-            <span>Vogue</span>
-            <span>Forbes</span>
-        </div>
-    </section>
+    <div id="collections">
+        <section class="collection-spread">
+            <div class="collection-info">
+                <p class="collection-num">COLLECTION 01</p>
+                <h2>Resort</h2>
+                <p class="collection-desc">Linen shirts, relaxed trousers, and sun-ready layers—styled for coastal mornings and poolside afternoons.</p>
+                <a href="#" class="view-looks">VIEW RESORT LOOKS</a>
+                <p class="coordinates">34.0101° N / 118.4965° W</p>
+            </div>
+            <div class="collection-image">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/collection_resort_linen.jpg" alt="Resort collection">
+            </div>
+        </section>
+
+        <section class="collection-spread inverse">
+            <div class="collection-info">
+                <p class="collection-num">COLLECTION 02</p>
+                <h2>Urban</h2>
+                <p class="collection-desc">Tailored blazers, crisp shirting, and modern suiting—packed for meetings, dinners, and last-minute gallery visits.</p>
+                <a href="#" class="view-looks">VIEW URBAN LOOKS</a>
+                <p class="coordinates">40.7128° N / 74.0060° W</p>
+            </div>
+            <div class="collection-image">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/collection_urban_suit.jpg" alt="Urban collection">
+            </div>
+        </section>
+
+        <section class="collection-spread">
+            <div class="collection-info">
+                <p class="collection-num">COLLECTION 03</p>
+                <h2>Evening</h2>
+                <p class="collection-desc">Silhouettes that move—jumpsuits, soft tailoring, and modern gowns styled for galas, weddings, and rooftop soirées.</p>
+                <a href="#" class="view-looks">VIEW EVENING LOOKS</a>
+                <p class="coordinates">41.9028° N / 12.4964° E</p>
+            </div>
+            <div class="collection-image">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/collection_evening_gown.jpg" alt="Evening collection">
+            </div>
+        </section>
+
+        <section class="collection-spread inverse">
+            <div class="collection-info">
+                <p class="collection-num">COLLECTION 04</p>
+                <h2>Tropical</h2>
+                <p class="collection-desc">Breezy fabrics, easy prints, and sun-ready layers—designed for humid days and sunset dinners.</p>
+                <a href="#" class="view-looks">VIEW TROPICAL LOOKS</a>
+                <p class="coordinates">20.6534° N / 87.0760° W</p>
+            </div>
+            <div class="collection-image">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/collection_tropical_print.jpg" alt="Tropical collection">
+            </div>
+        </section>
+    </div>
 
     <section id="how-it-works" class="how-it-works">
-        <h2>How It Works</h2>
-        <div class="steps">
-            <div class="step">
-                <span class="step-number">01</span>
-                <h3>Select Your Destination</h3>
-                <p>Choose from our curated collection of travel-ready styles</p>
+        <h2>How it works</h2>
+        <p class="subtitle">Book → Receive → Wear → Return</p>
+        <div class="steps-grid">
+            <div class="step-card">
+                <span class="step-num">01</span>
+                <h3>Choose your destination</h3>
+                <p>Select your hotel and travel dates. We deliver to 30+ cities worldwide.</p>
             </div>
-            <div class="step">
-                <span class="step-number">02</span>
-                <h3>Curated Styles Arrive</h3>
-                <p>Your wardrobe is delivered to your hotel before you arrive</p>
+            <div class="step-card">
+                <span class="step-num">02</span>
+                <h3>We curate & deliver</h3>
+                <p>Our stylists select outfits based on your preferences. Delivered to your hotel.</p>
             </div>
-            <div class="step">
-                <span class="step-number">03</span>
-                <h3>Return With Ease</h3>
-                <p>Simple return process - travel light both ways</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="collections" class="collections">
-        <h2>Shop by Collection</h2>
-        <div class="collection-grid">
-            <div class="collection-card">
-                <div class="collection-image">Men's</div>
-                <a href="#mens">Explore →</a>
-            </div>
-            <div class="collection-card">
-                <div class="collection-image">Women's</div>
-                <a href="#womens">Explore →</a>
-            </div>
-            <div class="collection-card">
-                <div class="collection-image">Kids'</div>
-                <a href="#kids">Explore →</a>
+            <div class="step-card">
+                <span class="step-num">03</span>
+                <h3>Return at checkout</h3>
+                <p>Leave everything in the provided return bag. We handle the cleaning.</p>
             </div>
         </div>
     </section>
 
-    <section class="experience">
-        <div class="experience-content">
-            <div class="experience-text">
-                <h2>Thoughtfully Pre-Styled</h2>
-                <ul>
-                    <li>✓ Dry-cleaned & pressed</li>
-                    <li>✓ Coordinated by occasion</li>
-                    <li>✓ Flexible returns</li>
-                </ul>
+    <section id="bundles" class="style-packs">
+        <h2>Style packs</h2>
+        <p class="subtitle">Pre-styled bundles for one trip—no mixing required.</p>
+        <div class="packs-grid">
+            <div class="pack-card">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/bundle_resort_set.jpg" alt="Resort Set">
+                <h3>Resort Set</h3>
+                <p class="price">From $29/night</p>
+            </div>
+            <div class="pack-card">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/bundle_urban_set.jpg" alt="Urban Set">
+                <h3>Urban Set</h3>
+                <p class="price">From $39/night</p>
+            </div>
+            <div class="pack-card">
+                <img src="https://xa46sye2taaau.ok.kimi.link/images/bundle_evening_set.jpg" alt="Evening Set">
+                <h3>Evening Set</h3>
+                <p class="price">From $49/night</p>
             </div>
         </div>
     </section>
 
     <section class="testimonials">
-        <h2>Member Stories</h2>
-        <div class="testimonial-carousel">
-            <div class="testimonial">
-                <p>"I arrived in Paris with just a carry-on. My wardrobe was waiting."</p>
-                <p class="author">— Sarah M., Member since 2023</p>
-                <div class="rating">★★★★★</div>
+        <h2>Trusted by travelers</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="quote">"I traveled with a carry-on only. Everything fit my itinerary perfectly."</p>
+                <div class="author">
+                    <img src="https://xa46sye2taaau.ok.kimi.link/images/testimonial_alex.jpg" alt="Alex M.">
+                    <div>
+                        <p class="name">Alex M.</p>
+                        <p class="location">New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"The clothes felt new, and returning them was effortless."</p>
+                <div class="author">
+                    <img src="https://xa46sye2taaau.ok.kimi.link/images/testimonial_priya.jpg" alt="Priya S.">
+                    <div>
+                        <p class="name">Priya S.</p>
+                        <p class="location">London</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"A game-changer for business trips. I looked sharp without the luggage."</p>
+                <div class="author">
+                    <img src="https://xa46sye2taaau.ok.kimi.link/images/testimonial_jordan.jpg" alt="Jordan T.">
+                    <div>
+                        <p class="name">Jordan T.</p>
+                        <p class="location">Chicago</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-
-    <section class="secondary-signup">
-        <h2>Be the first to know when we launch in new cities.</h2>
-        <form class="email-form">
-            <input type="email" placeholder="Enter your email" required>
-            <button type="submit">Join VIP List</button>
-        </form>
         <div class="trust-badges">
-            <span>🔒 Secure signup</span>
-            <span>♻️ Carbon-neutral shipping</span>
+            <span>Secure payments</span>
+            <span>Easy returns</span>
+            <span>24/7 support</span>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>Travel Clothing Club</h3>
-                <p>Elevate Your Journey</p>
-            </div>
-            <div class="footer-column">
-                <h4>Collections</h4>
-                <a href="#mens">Men</a>
-                <a href="#womens">Women</a>
-                <a href="#kids">Kids</a>
-                <a href="#business">Business</a>
-            </div>
-            <div class="footer-column">
-                <h4>Support</h4>
-                <a href="#faq">FAQ</a>
-                <a href="#shipping">Shipping</a>
-                <a href="#returns">Returns</a>
+    <footer class="footer">
+        <div class="footer-cta">
+            <img src="https://xa46sye2taaau.ok.kimi.link/images/logo-footer-white.png" alt="Travel Clothing Club" class="footer-logo-main">
+            <h2>Let's plan your next trip.</h2>
+            <a href="mailto:hello@travelclothingclub.com" class="footer-email">hello@travelclothingclub.com</a>
+            <a href="#booking" class="btn-footer">START A BOOKING</a>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <a href="#collections">Collections</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#bundles">Style Packs</a>
                 <a href="#contact">Contact</a>
             </div>
-            <div class="footer-column">
+            <div class="footer-col">
                 <h4>Connect</h4>
-                <a href="#instagram">Instagram</a>
-                <a href="#pinterest">Pinterest</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Travel Clothing Club | Privacy | Terms</p>
+            <img src="https://xa46sye2taaau.ok.kimi.link/images/logo-footer-small.png" alt="TCC" class="footer-logo-sm">
+            <p>© 2026 Travel Clothing Club. All rights reserved.</p>
         </div>
     </footer>
 </body>
